@@ -49,3 +49,6 @@ export const getContractNFTs = async (tokenAddress) => {
   });
   return response.json();
 };
+
+//JSX (return) -> babel -> React.CreateElement() -> Virtual Dom (object)
+//Component render Virtual Dom -> compare difference -> Do Dom update
